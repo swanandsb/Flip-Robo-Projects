@@ -1,0 +1,44 @@
+Machine Learning Worksheet 2 Answers
+
+1) a
+
+2) d
+
+3) a
+
+4) a
+
+5) b
+
+6) b
+
+7) a
+
+8) d
+
+9) d
+
+10) a
+
+11) d
+
+12) d
+
+13)K-Means clustering algorithm is most sensitive to outliers as it uses the mean of cluster data points to find the cluster center and mean is easily influenced by extreme values. Also, K-means is extremely sensitive to cluster center initialization. Thus, bad initialization can lead to Poor convergence speed as well as bad overall clustering. It stops in local optimums due to the same as the existence of
+outliers in a dataset has an undesirable effect on the
+efficiency and accuracy of the clustering algorithms such as
+the k-means. 
+
+14) K means is better than other algorithms as:
+a)It's quite effective as an unsupervised method
+b)It works well for large-scale data
+c)No distributional assumption about the data is required
+d) It's easy to implement as compared to other complex clustering approaches
+e)Overall, it's good in capturing structure of the data if clusters have a spherical-like shape
+f)Can warm-start the positions of centroids
+g)Easily adapts to new examples
+h)Generalizes to clusters of different shapes and sizes, such as elliptical clusters and
+i)It guarantees convergence.
+
+
+15) A deterministic algorithm is simply an algorithm that has a predefined output. For instance if you are sorting elements that are strictly ordered(no equal elements) the output is well defined and so the algorithm is deterministic. In fact most of the computer algorithms are deterministic. Undeterminism usually apears when you have some parallelization or some equal elements that are only equal according to some non-full criteria. The basic k-means clustering is based on a non-deterministic algorithm. This means that running the algorithm several times on the same data, could give different results. Thus K means is non deterministic and it's non-deterministic nature is due to its random selection of data points as initial centroids.
