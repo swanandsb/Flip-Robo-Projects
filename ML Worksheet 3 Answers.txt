@@ -1,0 +1,35 @@
+Machine Learning Worksheet 3 Answers
+
+1) d
+
+2) d
+
+3) c
+
+4) b
+
+5) d
+
+6) c
+
+7) d
+
+8) a
+
+9) a
+
+10) b
+
+11) a
+
+12) b
+
+13) The purpose of clustering algorithms is to make sense of and extract value from large sets of structured and unstructured data. If you’re working with huge volumes of unstructured data, it only makes sense to try to partition the data into some sort of logical groupings before attempting to analyze it. Clustering allows you to take a glance at your data and then form some logical structures based on what you find there before going deep analysis. Clusters are sets of data points that share similar attributes, and clustering algorithms are the methods that group these data points into different clusters based on their similarities.The two main types of clustering algorithms are
+a)Hierarchical: Algorithms create separate sets of nested clusters, each in their own hierarchal level.
+b)Partitional: Algorithms create just a single set of clusters
+This unsupervised learning technique is very useful in the fields of i)Marketing :- Finding group of customers with similar behavior given a large data-base of customers. Data containing their properties and past buying records (conceptual Clustering).
+ii)Biology :- Classification of Plants and Animals Based on the properties under observation (conceptual Clustering).
+iii)Insurance :- Identifying groups of motor insurance policy holders with a high average claim cost (conceptual Clustering).
+iv)City-Planning :- Groups of houses according to their house type, value and geographical location it can be both (conceptual Clustering and Distance Based Clustering).
+
+14)K-means clustering algorithm can be significantly improved by using a better initialization technique, and by repeating (re-starting) the algorithm. Also, when the data has overlapping clusters, k-means can improve the results of the initialization technique. The idea is simply to restart k-means several times from different initial solution to produce several candidate solutions, and then keeping the best result found as the final solution. But when the data has well separated clusters, the performance of k-means depends completely on the goodness of the initialization. Using higher number of clusters results in good performance as well in case of k-means algorithm.
