@@ -1,0 +1,38 @@
+Statistics Worksheet 3 Answers
+
+1) b
+
+2) c
+
+3) a 
+
+4) a
+
+5) c
+
+6) a
+
+7) b
+
+8) d
+
+9) a
+
+10) In statistics and probability theory, the Bayes’ theorem (also known as the Bayes’ rule) is a mathematical formula used to determine the conditional probability of events. Essentially, the Bayes’ theorem describes the probability of an event based on prior knowledge of the conditions that might be relevant to the event.Besides statistics, the Bayes’ theorem has major applications in various disciplines, like medicine, pharmacology and finance. It can be used to model the risk of lending money to borrowers or to forecast the probability of the success of an investment.The formula is: P(A|B) =  P(A) P(B|A)P(B) 
+where how often A happens given that B happens is P(A|B),
+, how often B happens given that A happens is P(B|A), how likely A is on its own is P(A) and how likely B is on its own is P(B)
+
+11)A z-score (aka, a standard score) indicates how many standard deviations an element is from the mean, formula is: z = (X - μ) / σ
+where z is the z-score, X is the value of the element, μ is the population mean, and σ is the standard deviation.
+The process of converting a value from a normal distribution to a value for the standard normal distribution is called "standardizing" and requires the use of z-scores. A z-score is a measure of position that indicates the number of standard deviations a data value lies from the mean. It is the horizontal scale of a standard normal distribution.
+
+12) In statistics, t-test is a method of testing hypotheses about the mean of a small sample drawn from a normally distributed population when the population standard deviation is unknown. It is usual first to formulate a null hypothesis, which states that there is no effective difference between the observed sample mean and the hypothesized or stated population mean. The t test is one type of inferential statistics. It is used to determine whether there is a significant difference between the means of two groups. With all inferential statistics, we assume the dependent variable fits a normal distribution. When we assume a normal distribution exists, we can identify the probability of a particular outcome.
+
+13)A  percentile  is a comparison score between a particular score and the scores of the rest of a group. It shows the percentage of scores that a particular score surpassed. Percentiles provide an indication of how the data values are spread over the interval from the smallest value to the largest value. Approximately n percent of the data values fall below the nth percentile, and roughly 100 − n percent of the data values are above the nth percentile.
+
+14) ANOVA is a statistical technique that assesses potential differences in a scale-level dependent variable by a nominal-level variable having 2 or more categories. The procedure is known as the Analysis of Variance or ANOVA and is used to test hypotheses concerning means when we have several populations. There are basically 3 types of ANOVA
+a)One Way ANOVA - It has just one independent variable
+b)Two Way ANOVA - It has two independent variables and is also known as factorial ANOVA
+c)N Way ANOVA - It has more than two independent variables and is used mainly in the fields related to research.
+
+15) ANOVA is very useful as it tells us if there are any statistical differences between the means of three or more independent groups. We generally use when we want to test a particular hypothesis. ANOVA is used to help us understand how different groups respond, with a null hypothesis for the test that the means of the different groups are equal. If there is a statistically significant result, then it means that the two populations are unequal. When we understand how each independent variable’s mean is different from others, we can begin to understand which of them has a connection to the dependent variable and begin to learn exactly what is driving that behavior. ANOVA is particularly useful when analyzing the multi-item scales common in market research. The proper use of ANOVA is to analyze survey data by requiring a few assumptions are met including normal distribution of data, independence of cases, and equality of variance.
