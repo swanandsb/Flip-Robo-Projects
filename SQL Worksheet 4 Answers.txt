@@ -1,0 +1,31 @@
+SQL Worksheet 4 Answers
+
+1.	select avg(ordershippedperday) from ( select count(orderNumber) as ordershippedperday from orders group by shippedDate) as count_table;
+
+2.	select avg(ordersperday) from ( select count(orderNumber) as ordersperdayfrom orders group by orderDate) as count_table;
+
+3.	select productName from products where MSRP=(select min(MSRP) from products);
+
+4.	select productName from products where quantityInStock=(select max(quantityInStock) from products);
+
+5.	select productName from orderdetails join products on orderdetails.productCode=products.productCode group by orderdetails.productCode order by sum(quantityOrdered) desc limit 1;
+
+6.	select customerName from payments join customers on payments.customerNumber=customers.customerNumber order by amount desc limit 1;
+
+7.	select customerName,customerNumber from customers where city like 'Melbourne%';
+
+8.	select customerName from customers where customerName like 'N%';
+
+9.	select customerName,phone,city from customers where phone like '7%' and city like 'las%as';
+
+10.	select customerName from customers where creditLimit < 1000 and city in ('Las Vegas','Nantes','Stavern');
+
+11.	select orderNumber from orderdetails where quantityOrdered < 10 ;
+
+12.	select orderNumber from customers join orders on customers.customerNumber=orders.customerNumber where customerName like 'N%';
+
+13.	select customerName from customers join orders on customers.customerNumber=orders.customerNumber where status='disputed';
+
+14.	select customerName  from payments join customers on payments.customerNumber=customers.customerNumber  where checkNumber like 'H%' and paymentDate='2004-10-19';
+
+15.	select checkNumber from payments where 	amount>1000;
