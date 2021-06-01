@@ -1,0 +1,48 @@
+SQL Worksheet 5 Answers
+
+1. select * from movie;
+
+2. select title from movie order by runtime desc limit 1;
+
+3. select title from movie order by revenue desc limit 1;
+
+4. select title,budget from movie order by budget desc limit 1;
+
+5. select movie.title,movie_cast.person_id, gender.gender,
+movie_cast.character_name, movie_cast.cast_order from movie join
+movie_cast on movie.movie_id=movie_cast.movie_id join gender on
+movie_cast.gender_id=gender.gender_id where gender.gender_id=2
+limit 3\G
+
+6. select country_name,count(country_name) as
+no_of_movies_produced from movie as a join production_country as c
+on a.movie_id=c.movie_id join country on
+c.country_id=country.country_id group by country_name order by
+count(country_name) desc;
+
+7. select * from genre;
+
+8. select language_name,movie_id,count(language_name) from
+movie_languages as m join language as l on
+m.language_id=l.language_id group by language_name order by
+count(language_name) desc;
+
+9. select title,count(cr.person_id),count(ca.person_id) from movie as m
+join movie_crew as cr on m.movie_id=cr.movie_id full outer join
+movie_cast as ca on m.movie_id=ca.movie_id group by title;
+
+10. select title,revenue from movie order by popularity desc limit 1;
+
+11. select title from movie order by revenue desc limit 2,1;
+
+12. select title from movie where movie_status=&#39;Rumored&#39;;
+
+13. select title,revenue from movie as m join production_country as pc
+on m.movie_id=pc.movie_id join country as c on
+pc.country_id=c.country_id where country_name=&#39;United States of
+America&#39; order by revenue desc limit 1;
+
+14. select movie_id,company_name from movie_company as mc join
+production_company as pc on mc.company_id=pc.company_id;
+
+15. select title from movie order by budget limit 20;
