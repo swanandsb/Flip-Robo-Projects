@@ -1,0 +1,36 @@
+SQL Worksheet 7 Answers
+
+1. B
+
+2. B,C
+
+3. C
+
+4. C
+
+5. C
+
+6. C
+
+7. D 
+
+8. B
+
+9. B
+
+10. A
+
+11. A
+
+12. These are different types of Joins.
+a)	Inner join: Inner Join in SQL is the most common type of join. It is used to return all the rows from multiple tables where the join condition is satisfied. 
+b)	Left Join:  Left Join in SQL is used to return all the rows from the left table but only the matching rows from the right table where the join condition is fulfilled.
+c)	Right Join: Right Join in SQL is used to return all the rows from the right table but only the matching rows from the left table where the join condition is fulfilled.
+d)	Full Join: Full join returns all the records when there is a match in any of the tables. Therefore, it returns all the rows from the left-hand side table and all the rows from the right-hand side table
+ 
+
+13. Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network (including the Internet). Microsoft markets at least a dozen different editions of Microsoft SQL Server, aimed at different audiences and for workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users.
+
+14. A primary key is a column or a group of columns that uniquely identifies each row in a table. You create a primary key for a table by using the PRIMARY KEY constraint.
+
+15. The SQL Server ETL (Extraction, Transformation, and Loading) process is especially useful when there is no consistency in the data coming from the source systems. When faced with this predicament, you will want to standardize (validate/transform) all the data coming in first before loading it into a data warehouse. ETL has the unmistakable upper hand of delivering data in its cleansed and transformed state.
